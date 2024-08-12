@@ -1,0 +1,19 @@
+{
+  "extends": "@finsweet/tsconfig",
+  "compilerOptions": {
+    "target": "ESNext",                                  
+    "module": "ESNext",                      
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true,                                      
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "moduleResolution": "Bundler",
+    "rootDir": ".",
+    "baseUrl": "./",
+    "paths": {
+      "$utils/*": ["src/*"]
+    },
+    "types": ["@finsweet/ts-utils"]
+  }
+}
